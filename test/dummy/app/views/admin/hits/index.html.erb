@@ -19,7 +19,6 @@
 
   <% if @items.any? -%>
     <%= build_list(@resource, fields, @items) %>
-    <%= admin_paginate(@items, Typus.pagination) %>
   <% else %>
     <p><%= Typus::I18n.t("No entries found.") %></p>
   <% end %>
