@@ -14,8 +14,6 @@ concentrate on your application instead of the bits to manage the system.
 
 ![Main View](http://cloud.github.com/downloads/fesplugas/typus/001-typus.png)
 
-You can try a demo [here][typus_demo].
-
 
 ## Key Features
 
