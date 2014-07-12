@@ -64,7 +64,7 @@ Examples:
       end
 
       def generate_migration
-        migration_template "migration.erb", "db/migrate/create_#{admin_users_table_name}"
+        migration_template "migration.erb", "db/migrate/create_#{admin_users_table_name}.rb"
       end
 
       protected
